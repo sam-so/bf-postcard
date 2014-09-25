@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         enterNameTextField.text    = ""
         enterNameTextField.resignFirstResponder()
 
+            // adding a new comment
         messageLabel.hidden        = false
         messageLabel.text          = enterMessageTextField.text
         messageLabel.textColor     = UIColor.redColor()
